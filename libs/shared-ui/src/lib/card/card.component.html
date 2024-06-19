@@ -1,0 +1,14 @@
+<div
+  class="shadow-md"
+  [ngClass]="{
+    'bg-white': variant === 'default',
+    'bg-gray-50': variant === 'gray'
+  }"
+>
+  <header class="px-5 py-2 border-solid border-b border-zink-100">
+    <h2 class="mb-0">{{ heading }}</h2>
+  </header>
+  <div class="px-5 py-5">
+    <ng-content></ng-content>
+  </div>
+</div>

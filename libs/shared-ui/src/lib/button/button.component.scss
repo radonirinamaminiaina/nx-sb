@@ -1,0 +1,19 @@
+.btn-primary {
+    @apply bg-blue-600 text-white;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
+
+.btn-warning {
+    @apply bg-yellow-500 text-black;
+}
+
+.btn-success {
+    @apply bg-green-600 text-white;
+}
+
+.btn-default {
+    @apply bg-white text-black border-solid border border-gray-400;
+}

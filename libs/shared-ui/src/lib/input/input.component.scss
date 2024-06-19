@@ -1,0 +1,10 @@
+.input-wrap  {
+    ::ng-deep {
+        input {
+            @apply px-2 py-2 mb-8;
+            border: solid 1px #ccc;
+            outline: 0;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<lib-card heading="Login form">
+  <div>
+    <lib-input>
+      <input type="email" data-testid="email" placeholder="Email" />
+    </lib-input>
+    <lib-input>
+      <input type="password" data-testid="password" placeholder="Password" />
+    </lib-input>
+    <lib-button label="Valider" data-testid="submit" (click)="onSubmit()" />
+    <div
+      class="mt-5 px-5 py-2 bg-green-200 border border-green-400 rounded-md"
+      *ngIf="isSubmitted"
+      data-testid="success"
+    >
+      Login Success
+    </div>
+  </div>
+</lib-card>

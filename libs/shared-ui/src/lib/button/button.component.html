@@ -1,0 +1,16 @@
+<button
+  class="rounded-md text-white"
+  [ngClass]="{
+    'px-4 py-2': size === 'lg',
+    'px-3.5 py-1.5': size === 'md',
+    'px-2 py-1 text-xs': size === 'sm',
+    'btn-primary': variant === 'primary',
+    'btn-danger': variant === 'danger',
+    'btn-warning': variant === 'warning',
+    'btn-success': variant === 'success',
+    'btn-default': variant === 'default',
+  }"
+  (click)="onClick($event)"
+>
+  {{ label }}
+</button>
