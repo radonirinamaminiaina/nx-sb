@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:sb": "nx build-storybook shared-ui"
+    "build:sb": "nx build-storybook shared-ui",
+    "build-storybook": "npm run build:sb -- --outputDir"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +33,7 @@
     "@angular/cli": "~18.0.0",
     "@angular/compiler-cli": "~18.0.0",
     "@angular/language-service": "~18.0.0",
+    "@chromatic-com/storybook": "^1.5.0",
     "@nx/cypress": "19.3.0",
     "@nx/eslint": "19.3.0",
     "@nx/eslint-plugin": "19.3.0",
