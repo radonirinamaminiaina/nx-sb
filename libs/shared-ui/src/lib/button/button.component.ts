@@ -13,6 +13,7 @@ export class ButtonComponent {
   @Input() size: 'lg' | 'md' | 'sm' = 'md';
   @Input() variant: 'primary' | 'danger' | 'success' | 'warning' | 'default' =
     'primary';
+  @Input() disabled = false;
 
   // eslint-disable-next-line @angular-eslint/no-output-native
   @Output() click = new EventEmitter();

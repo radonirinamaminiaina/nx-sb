@@ -25,6 +25,12 @@ const meta: Meta<ButtonComponent> = {
         type: 'select',
       },
     },
+    disabled: {
+      defaultValue: false,
+      control: {
+        type: 'boolean',
+      },
+    },
   },
   render: (args: ButtonComponent) => {
     console.log(args);
@@ -45,5 +51,6 @@ export const Button: Story = {
     label: 'Button label',
     size: 'md',
     variant: 'primary',
+    disabled: false,
   },
 };

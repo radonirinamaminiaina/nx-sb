@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common / Button Button smoke-test 1`] = `
+<storybook-root ng-version="18.0.3">
+  <lib-button _nghost-ng-c1370027063
+              ng-reflect-label="Button label"
+              ng-reflect-size="md"
+              ng-reflect-variant="primary"
+              ng-reflect-disabled="false"
+  >
+    <button _ngcontent-ng-c1370027063
+            class="rounded-md text-white px-3.5 py-1.5 btn-primary"
+            ng-reflect-ng-class="[object Object]"
+    >
+      Button label
+    </button>
+  </lib-button>
+</storybook-root>
+`;

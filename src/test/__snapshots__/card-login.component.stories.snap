@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form / Login Login play-test 1`] = `
+<storybook-root ng-version="18.0.3">
+  <lib-card-login _nghost-ng-c180800766>
+    <lib-card _ngcontent-ng-c180800766
+              heading="Login form"
+              _nghost-ng-c3179726145
+              ng-reflect-heading="Login form"
+    >
+      <div _ngcontent-ng-c3179726145
+           class="shadow-md bg-white"
+           ng-reflect-ng-class="[object Object]"
+      >
+        <header _ngcontent-ng-c3179726145
+                class="px-5 py-2 border-solid border-b border-zink-100"
+        >
+          <h2 _ngcontent-ng-c3179726145
+              class="mb-0"
+          >
+            Login form
+          </h2>
+        </header>
+        <div _ngcontent-ng-c3179726145
+             class="px-5 py-5"
+        >
+          <div _ngcontent-ng-c180800766>
+            <lib-input _ngcontent-ng-c180800766
+                       _nghost-ng-c217331777
+            >
+              <div _ngcontent-ng-c217331777
+                   class="input-wrap"
+              >
+                <input _ngcontent-ng-c180800766
+                       type="email"
+                       data-testid="email"
+                       placeholder="Email"
+                >
+              </div>
+            </lib-input>
+            <lib-input _ngcontent-ng-c180800766
+                       _nghost-ng-c217331777
+            >
+              <div _ngcontent-ng-c217331777
+                   class="input-wrap"
+              >
+                <input _ngcontent-ng-c180800766
+                       type="password"
+                       data-testid="password"
+                       placeholder="Password"
+                >
+              </div>
+            </lib-input>
+            <lib-button _ngcontent-ng-c180800766
+                        label="Valider"
+                        data-testid="submit"
+                        _nghost-ng-c1370027063
+                        ng-reflect-label="Valider"
+            >
+              <button _ngcontent-ng-c1370027063
+                      class="rounded-md text-white px-3.5 py-1.5 btn-primary"
+                      ng-reflect-ng-class="[object Object]"
+              >
+                Valider
+              </button>
+            </lib-button>
+            <div _ngcontent-ng-c180800766
+                 data-testid="success"
+                 class="mt-5 px-5 py-2 bg-green-200 border border-green-400 rounded-md"
+            >
+              Login Success
+            </div>
+          </div>
+        </div>
+      </div>
+    </lib-card>
+  </lib-card-login>
+</storybook-root>
+`;

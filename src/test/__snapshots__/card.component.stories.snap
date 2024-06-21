@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common / Card Card play-test 1`] = `
+<storybook-root ng-version="18.0.3">
+  <lib-card _nghost-ng-c3179726145
+            ng-reflect-heading="Create new user"
+            ng-reflect-variant="default"
+  >
+    <div _ngcontent-ng-c3179726145
+         class="shadow-md bg-white"
+         ng-reflect-ng-class="[object Object]"
+    >
+      <header _ngcontent-ng-c3179726145
+              class="px-5 py-2 border-solid border-b border-zink-100"
+      >
+        <h2 _ngcontent-ng-c3179726145
+            class="mb-0"
+        >
+          Create new user
+        </h2>
+      </header>
+      <div _ngcontent-ng-c3179726145
+           class="px-5 py-5"
+      >
+        <div>
+          Card Body
+        </div>
+      </div>
+    </div>
+  </lib-card>
+</storybook-root>
+`;

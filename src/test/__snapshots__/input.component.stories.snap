@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form / Input Input smoke-test 1`] = `
+<storybook-root ng-version="18.0.3">
+  <div>
+    <lib-input _nghost-ng-c217331777>
+      <div _ngcontent-ng-c217331777
+           class="input-wrap"
+      >
+        <input id="email"
+               data-testid="email"
+               type="email"
+               placeholder="Email"
+        >
+      </div>
+    </lib-input>
+    <lib-button label="Submit"
+                _nghost-ng-c1370027063
+                ng-reflect-label="Submit"
+    >
+      <button _ngcontent-ng-c1370027063
+              class="rounded-md text-white px-3.5 py-1.5 btn-primary"
+              ng-reflect-ng-class="[object Object]"
+      >
+        Submit
+      </button>
+    </lib-button>
+  </div>
+</storybook-root>
+`;

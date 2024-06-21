@@ -17,3 +17,9 @@
 .btn-default {
     @apply bg-white text-black border-solid border border-gray-400;
 }
+
+.btn-disabled {
+    opacity: 0.3;
+    cursor: pointer;
+    pointer-events: none;
+}

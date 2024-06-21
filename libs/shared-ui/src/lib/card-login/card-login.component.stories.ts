@@ -16,8 +16,6 @@ export const Login: Story = {
   play: async ({ args, canvasElement, step }) => {
     const canvas = within(canvasElement);
 
-    console.log(args);
-
     await step('Enter credentials', async () => {
       await userEvent.type(canvas.getByTestId('email'), 'rado@gmail.com');
       await userEvent.type(canvas.getByTestId('password'), '123456');
